@@ -48,7 +48,7 @@ PLANS = {
     },
     "6-nina-soliste": {
         "name": "Nina soliste, et chacun son tour",
-        "pieces": [("schubert-ballet", 3, "first"), ("faure-berceuse", 3.5), ("grieg-ase", 2.5), ("massenet-meditation", 5),
+        "pieces": [("schubert-ballet", 3, "first"), ("faure-berceuse", 3.5), ("grieg-ase", 2), ("massenet-meditation", 5),
                    ("mozart-romanze", 3), ("bizet-aragonaise", 2), ("ravel-pavane", 5), ("gardel-cabeza", 2.5), ("tico-tico", 3, "last")],
     },
 }

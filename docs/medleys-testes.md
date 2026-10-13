@@ -17,7 +17,7 @@ Cible : 30 minutes ± 1,5, ponts compris.
 | Paris 1900 | 10 | 30.0 + 1.1 = **31.1** | 15 | 0 | percussion, percussion légère, trombones, trompettes |
 | Contes et ballets | 11 | 30.0 + 0.5 = **30.5** | 10 | 0 | célesta ou piano, percussion, percussion légère, timbales, triangle, trombones, trompettes |
 | Effectif de base seul (aucun instrument en plus) | 9 | 29.0 + 0.6 = **29.6** | 9 | 0 | percussion légère |
-| Nina soliste, et chacun son tour | 9 | 29.5 + 0.5 = **30.0** | 6 | 0 | percussion, percussion légère |
+| Nina soliste, et chacun son tour | 9 | 29.0 + 0.5 = **29.5** | 6 | 0 | percussion, percussion légère |
 
 **Ce que montrent les tests**
 
@@ -134,10 +134,10 @@ Musique 29.0 min + ponts 0.6 min = **29.6 min** ; coût tonal 9 ; creux d’éne
 | 2 | Mozart, Eine kleine Nachtmusik : Romanze | do majeur | 60 | 3 | pont de 2 mesures (ton voisin) ; tempo 60→132 (point d'orgue ou ritenuto puis nouveau départ) |
 | 3 | Bizet, Carmen : Aragonaise | ré mineur | 132 | 2 | pont de 2 mesures (ton voisin) ; tempo 132→112 |
 | 4 | Gardel, Por una cabeza (tonalité à vérifier) | la mineur → la majeur | 112 | 2.5 | pont de 2 mesures (ton voisin) ; tempo 112→48 (point d'orgue ou ritenuto puis nouveau départ) |
-| 5 | Grieg, Peer Gynt : La mort d'Åse | si mineur | 48 | 2.5 | enchaînement direct, même tonalité ; tempo 48→72 |
+| 5 | Grieg, Peer Gynt : La mort d'Åse | si mineur | 48 | 2 | enchaînement direct, même tonalité ; tempo 48→72 |
 | 6 | Fauré, Berceuse op. 16 (violon solo) | ré majeur | 72 | 3.5 | enchaînement direct, même tonalité ; tempo 72→66 |
 | 7 | Massenet, Méditation de Thaïs (violon solo) | ré majeur | 66 | 5 | pont de 2 mesures (ton voisin) ; tempo 66→54 |
 | 8 | Ravel, Pavane pour une infante défunte | sol majeur | 54 | 5 | pont de 2 mesures (ton voisin) ; tempo 54→126 (point d'orgue ou ritenuto puis nouveau départ) |
 | 9 | Abreu, Tico-Tico no Fubá (tonalité à vérifier) | la mineur → la majeur | 126 | 3 | fin |
 
-Musique 29.5 min + ponts 0.5 min = **30.0 min** ; coût tonal 6 ; creux d’énergie 0.
+Musique 29.0 min + ponts 0.5 min = **29.5 min** ; coût tonal 6 ; creux d’énergie 0.
