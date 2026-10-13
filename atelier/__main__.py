@@ -30,7 +30,7 @@ def build() -> argparse.ArgumentParser:
     c.add_argument("--json", action="store_true")
 
     m = sub.add_parser("medley", help="ordre, transitions et minutage d'un medley depuis un plan JSON/YAML")
-    m.add_argument("plan"); m.add_argument("--json", action="store_true")
+    m.add_argument("plan"); m.add_argument("--json", action="store_true"); m.add_argument("--markdown", action="store_true")
 
     d = sub.add_parser("dossier", help="fusionner des PDF en un dossier numéroté")
     d.add_argument("pdfs", nargs="+"); d.add_argument("--out", required=True); d.add_argument("--title"); d.add_argument("--no-numbers", action="store_true")

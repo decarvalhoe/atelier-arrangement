@@ -68,6 +68,27 @@ def test_medley_plan():
     assert medley.distance("A minor", "C major") == 0 and medley.distance("C major", "G major") == 1
 
 
+MEDLEYS = sorted((ROOT / "examples" / "medleys").glob("*.json"))
+
+
+@pytest.mark.parametrize("plan_file", MEDLEYS, ids=[p.stem for p in MEDLEYS])
+def test_example_medleys(plan_file):
+    """Chaque medley de démonstration : 30 ± 1,5 min ponts compris, Ravel et Tico-Tico présents, Tico-Tico en dernier."""
+    res = medley.plan(medley.load_spec(plan_file))
+    titles = [s["title"] for s in res["order"]]
+    assert res["verdict"] == "ok", (res["total_minutes"], plan_file.stem)
+    assert any("Ravel" in t for t in titles) and titles[-1].startswith("Abreu")
+    if plan_file.stem != "1-programme-1-en-medley":   # le programme d'origine garde un creux : c'est le constat du test
+        assert res["energy_runs"] == 0, res["warnings"]
+
+
+def test_energy_penalty_breaks_slow_runs():
+    slow = [{"title": f"lent {i}", "key": "C major", "tempo": 50, "minutes": 3} for i in range(3)]
+    fast = [{"title": f"vif {i}", "key": "C major", "tempo": 130, "minutes": 3} for i in range(3)]
+    res = medley.plan({"pieces": slow + fast})
+    assert res["energy_runs"] == 0
+
+
 def test_cli_env_runs():
     out = subprocess.run([sys.executable, "-m", "atelier", "env"], cwd=ROOT, capture_output=True, text=True)
     assert "Python" in out.stdout

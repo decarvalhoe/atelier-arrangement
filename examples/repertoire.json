@@ -1,0 +1,373 @@
+{
+ "_doc": "Répertoire pour medleys d'orchestre réduit (bois par 2, 2 cors, harpe ou piano, cordes). Domaine public dans l'UE, pas de baroque. Tonalités de l'extrait habituellement retenu ; verify=true : à confirmer sur la partition utilisée. Tempos indicatifs (noire/min, ou blanche pointée pour les 3/4 rapides comptés à un). 'extra' : forces au-delà de l'effectif de base. 'meter' = pulsations par mesure dans l'unité du tempo (6/8 à la noire pointée : 2).",
+ "pieces": [
+  {
+   "id": "ravel-pavane",
+   "title": "Ravel, Pavane pour une infante défunte",
+   "key": "G major",
+   "tempo": 54,
+   "extra": [],
+   "notes": "cor solo ; harpe ou piano"
+  },
+  {
+   "id": "faure-pavane",
+   "title": "Fauré, Pavane op. 50",
+   "key": "F# minor",
+   "tempo": 84,
+   "extra": []
+  },
+  {
+   "id": "faure-sicilienne",
+   "title": "Fauré, Sicilienne (Pelléas)",
+   "key": "G minor",
+   "tempo": 60,
+   "meter": 2,
+   "extra": [],
+   "notes": "flûte solo"
+  },
+  {
+   "id": "faure-berceuse",
+   "title": "Fauré, Berceuse op. 16 (violon solo)",
+   "key": "D major",
+   "tempo": 72,
+   "extra": []
+  },
+  {
+   "id": "bizet-adagietto",
+   "title": "Bizet, L'Arlésienne : Adagietto",
+   "key": "F major",
+   "tempo": 60,
+   "extra": [],
+   "notes": "cordes seules"
+  },
+  {
+   "id": "bizet-carmen-prelude",
+   "title": "Bizet, Carmen : Prélude",
+   "key": "A major",
+   "tempo": 116,
+   "meter": 2,
+   "extra": [
+    "trompettes",
+    "trombones",
+    "percussion"
+   ]
+  },
+  {
+   "id": "bizet-habanera",
+   "title": "Bizet, Carmen : Habanera",
+   "key": "D minor",
+   "end_key": "D major",
+   "tempo": 72,
+   "meter": 2,
+   "extra": [
+    "percussion"
+   ],
+   "notes": "mélodie au violon ou à la clarinette"
+  },
+  {
+   "id": "bizet-entracte3",
+   "title": "Bizet, Carmen : Entr'acte de l'acte III",
+   "key": "E- major",
+   "tempo": 66,
+   "meter": 3,
+   "extra": [],
+   "notes": "flûte et harpe"
+  },
+  {
+   "id": "bizet-aragonaise",
+   "title": "Bizet, Carmen : Aragonaise",
+   "key": "D minor",
+   "tempo": 132,
+   "meter": 3,
+   "extra": [
+    "percussion"
+   ]
+  },
+  {
+   "id": "massenet-meditation",
+   "title": "Massenet, Méditation de Thaïs (violon solo)",
+   "key": "D major",
+   "tempo": 66,
+   "extra": []
+  },
+  {
+   "id": "saint-saens-cygne",
+   "title": "Saint-Saëns, Le Cygne (violoncelle solo)",
+   "key": "G major",
+   "tempo": 40,
+   "meter": 2,
+   "extra": []
+  },
+  {
+   "id": "offenbach-barcarolle",
+   "title": "Offenbach, Barcarolle (Les Contes d'Hoffmann)",
+   "key": "D major",
+   "tempo": 56,
+   "meter": 2,
+   "extra": []
+  },
+  {
+   "id": "debussy-clair-de-lune",
+   "title": "Debussy, Clair de lune (orch. Caplet)",
+   "key": "D- major",
+   "tempo": 50,
+   "meter": 3,
+   "extra": [],
+   "notes": "Caplet † 1925 : domaine public"
+  },
+  {
+   "id": "satie-gymnopedie",
+   "title": "Satie, Gymnopédie n° 1 (orch. Debussy)",
+   "key": "D major",
+   "tempo": 66,
+   "meter": 3,
+   "extra": [],
+   "verify": true,
+   "notes": "Debussy a orchestré les n° 1 et 3 en inversant leur numérotation : vérifier l'édition"
+  },
+  {
+   "id": "mascagni-intermezzo",
+   "title": "Mascagni, Cavalleria rusticana : Intermezzo",
+   "key": "F major",
+   "tempo": 60,
+   "extra": [],
+   "notes": "Mascagni † 1945 : domaine public depuis 2016"
+  },
+  {
+   "id": "grieg-morning",
+   "title": "Grieg, Peer Gynt : Au matin",
+   "key": "E major",
+   "tempo": 58,
+   "meter": 2,
+   "extra": []
+  },
+  {
+   "id": "grieg-ase",
+   "title": "Grieg, Peer Gynt : La mort d'Åse",
+   "key": "B minor",
+   "tempo": 48,
+   "extra": [],
+   "notes": "cordes seules"
+  },
+  {
+   "id": "grieg-anitra",
+   "title": "Grieg, Peer Gynt : La danse d'Anitra",
+   "key": "A minor",
+   "tempo": 132,
+   "meter": 3,
+   "extra": [
+    "triangle"
+   ]
+  },
+  {
+   "id": "grieg-mountain-king",
+   "title": "Grieg, Peer Gynt : Dans l'antre du roi de la montagne",
+   "key": "B minor",
+   "tempo": 138,
+   "extra": [
+    "trompettes",
+    "trombones",
+    "timbales",
+    "percussion"
+   ],
+   "notes": "accelerando final"
+  },
+  {
+   "id": "grieg-last-spring",
+   "title": "Grieg, Le dernier printemps op. 34/2",
+   "key": "G major",
+   "tempo": 60,
+   "meter": 3,
+   "extra": [],
+   "notes": "cordes seules"
+  },
+  {
+   "id": "tchaik-valse-serenade",
+   "title": "Tchaïkovski, Sérénade pour cordes : Valse",
+   "key": "G major",
+   "tempo": 60,
+   "meter": 1,
+   "extra": [],
+   "notes": "tempo à la blanche pointée ; cordes seules"
+  },
+  {
+   "id": "tchaik-mirlitons",
+   "title": "Tchaïkovski, Casse-Noisette : Danse des mirlitons",
+   "key": "D major",
+   "tempo": 80,
+   "meter": 2,
+   "extra": [],
+   "notes": "trois flûtes à l'origine : 2 flûtes + clarinette"
+  },
+  {
+   "id": "tchaik-dragee",
+   "title": "Tchaïkovski, Casse-Noisette : Danse de la Fée Dragée",
+   "key": "E minor",
+   "tempo": 72,
+   "meter": 2,
+   "extra": [
+    "célesta ou piano"
+   ]
+  },
+  {
+   "id": "tchaik-trepak",
+   "title": "Tchaïkovski, Casse-Noisette : Trépak",
+   "key": "G major",
+   "tempo": 152,
+   "meter": 2,
+   "extra": [
+    "trompettes",
+    "percussion"
+   ]
+  },
+  {
+   "id": "tchaik-arabe",
+   "title": "Tchaïkovski, Casse-Noisette : Danse arabe",
+   "key": "G minor",
+   "tempo": 60,
+   "meter": 3,
+   "extra": []
+  },
+  {
+   "id": "tchaik-valse-fleurs",
+   "title": "Tchaïkovski, Casse-Noisette : Valse des fleurs",
+   "key": "D major",
+   "tempo": 66,
+   "meter": 1,
+   "extra": [
+    "trompettes",
+    "trombones"
+   ],
+   "notes": "cadence de harpe ; tempo à la blanche pointée"
+  },
+  {
+   "id": "schubert-rosamunde",
+   "title": "Schubert, Rosamunde : Entracte n° 3",
+   "key": "B- major",
+   "tempo": 76,
+   "extra": []
+  },
+  {
+   "id": "schubert-ballet",
+   "title": "Schubert, Rosamunde : Ballet n° 2",
+   "key": "G major",
+   "tempo": 72,
+   "meter": 2,
+   "extra": []
+  },
+  {
+   "id": "mozart-nachtmusik",
+   "title": "Mozart, Eine kleine Nachtmusik : Allegro",
+   "key": "G major",
+   "tempo": 132,
+   "extra": [],
+   "notes": "cordes seules"
+  },
+  {
+   "id": "mozart-romanze",
+   "title": "Mozart, Eine kleine Nachtmusik : Romanze",
+   "key": "C major",
+   "tempo": 60,
+   "meter": 2,
+   "extra": []
+  },
+  {
+   "id": "boccherini-minuetto",
+   "title": "Boccherini, Menuet (Quintette op. 11 n° 5)",
+   "key": "A major",
+   "tempo": 108,
+   "meter": 3,
+   "extra": [],
+   "notes": "cordes seules"
+  },
+  {
+   "id": "brahms-hongroise5",
+   "title": "Brahms, Danse hongroise n° 5 (orch. Parlow)",
+   "key": "G minor",
+   "tempo": 112,
+   "meter": 2,
+   "extra": [
+    "trompettes",
+    "percussion"
+   ]
+  },
+  {
+   "id": "elgar-salut",
+   "title": "Elgar, Salut d'amour",
+   "key": "E major",
+   "tempo": 72,
+   "extra": []
+  },
+  {
+   "id": "elgar-matin",
+   "title": "Elgar, Chanson de matin",
+   "key": "G major",
+   "tempo": 84,
+   "extra": []
+  },
+  {
+   "id": "mendelssohn-notturno",
+   "title": "Mendelssohn, Songe d'une nuit d'été : Nocturne",
+   "key": "E major",
+   "tempo": 52,
+   "meter": 3,
+   "extra": [],
+   "notes": "cor solo"
+  },
+  {
+   "id": "strauss-pizzicato",
+   "title": "J. et Jos. Strauss, Pizzicato-Polka",
+   "key": "C major",
+   "tempo": 112,
+   "meter": 2,
+   "extra": [
+    "glockenspiel"
+   ],
+   "verify": true,
+   "notes": "cordes en pizzicato"
+  },
+  {
+   "id": "joplin-entertainer",
+   "title": "Joplin, The Entertainer (Red Back Book)",
+   "key": "C major",
+   "tempo": 76,
+   "meter": 2,
+   "extra": [],
+   "notes": "orchestration d'époque pour petit orchestre, domaine public"
+  },
+  {
+   "id": "gardel-cabeza",
+   "title": "Gardel, Por una cabeza",
+   "key": "A minor",
+   "end_key": "A major",
+   "tempo": 112,
+   "meter": 2,
+   "extra": [],
+   "verify": true,
+   "notes": "Gardel † 1935 : domaine public ; arrangement à écrire"
+  },
+  {
+   "id": "nazareth-odeon",
+   "title": "Nazareth, Odeon (tango brasileiro)",
+   "key": "C major",
+   "tempo": 88,
+   "meter": 2,
+   "extra": [],
+   "verify": true,
+   "notes": "Nazareth † 1934 ; arrangement à écrire"
+  },
+  {
+   "id": "tico-tico",
+   "title": "Abreu, Tico-Tico no Fubá",
+   "key": "A minor",
+   "end_key": "A major",
+   "tempo": 126,
+   "meter": 2,
+   "extra": [
+    "percussion légère"
+   ],
+   "verify": true,
+   "notes": "tonalité selon l'arrangement retenu"
+  }
+ ]
+}

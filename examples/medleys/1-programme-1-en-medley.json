@@ -1,0 +1,51 @@
+{
+ "name": "Programme 1 « Deux pavanes » converti en medley",
+ "repertoire": "../repertoire.json",
+ "target_minutes": 30,
+ "tolerance": 1.5,
+ "base_forces": [
+  "2 fl",
+  "2 hb",
+  "2 cl",
+  "2 bn",
+  "2 cors",
+  "harpe ou piano",
+  "cordes"
+ ],
+ "pieces": [
+  {
+   "ref": "faure-pavane",
+   "minutes": 4.5,
+   "fixed": "first"
+  },
+  {
+   "ref": "bizet-adagietto",
+   "minutes": 2.5
+  },
+  {
+   "ref": "massenet-meditation",
+   "minutes": 4.5
+  },
+  {
+   "ref": "faure-sicilienne",
+   "minutes": 3
+  },
+  {
+   "ref": "bizet-entracte3",
+   "minutes": 2.5
+  },
+  {
+   "ref": "elgar-salut",
+   "minutes": 3
+  },
+  {
+   "ref": "ravel-pavane",
+   "minutes": 5.5
+  },
+  {
+   "ref": "tico-tico",
+   "minutes": 3,
+   "fixed": "last"
+  }
+ ]
+}

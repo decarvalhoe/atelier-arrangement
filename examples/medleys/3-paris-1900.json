@@ -1,0 +1,59 @@
+{
+ "name": "Paris 1900",
+ "repertoire": "../repertoire.json",
+ "target_minutes": 30,
+ "tolerance": 1.5,
+ "base_forces": [
+  "2 fl",
+  "2 hb",
+  "2 cl",
+  "2 bn",
+  "2 cors",
+  "harpe ou piano",
+  "cordes"
+ ],
+ "pieces": [
+  {
+   "ref": "bizet-carmen-prelude",
+   "minutes": 2,
+   "fixed": "first"
+  },
+  {
+   "ref": "faure-pavane",
+   "minutes": 3.5
+  },
+  {
+   "ref": "satie-gymnopedie",
+   "minutes": 2.5
+  },
+  {
+   "ref": "bizet-aragonaise",
+   "minutes": 2
+  },
+  {
+   "ref": "faure-sicilienne",
+   "minutes": 3
+  },
+  {
+   "ref": "offenbach-barcarolle",
+   "minutes": 3
+  },
+  {
+   "ref": "debussy-clair-de-lune",
+   "minutes": 3.5
+  },
+  {
+   "ref": "saint-saens-cygne",
+   "minutes": 2.5
+  },
+  {
+   "ref": "ravel-pavane",
+   "minutes": 5
+  },
+  {
+   "ref": "tico-tico",
+   "minutes": 3,
+   "fixed": "last"
+  }
+ ]
+}

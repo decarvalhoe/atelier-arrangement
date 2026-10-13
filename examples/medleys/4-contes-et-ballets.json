@@ -1,0 +1,63 @@
+{
+ "name": "Contes et ballets",
+ "repertoire": "../repertoire.json",
+ "target_minutes": 30,
+ "tolerance": 1.5,
+ "base_forces": [
+  "2 fl",
+  "2 hb",
+  "2 cl",
+  "2 bn",
+  "2 cors",
+  "harpe ou piano",
+  "cordes"
+ ],
+ "pieces": [
+  {
+   "ref": "grieg-morning",
+   "minutes": 3,
+   "fixed": "first"
+  },
+  {
+   "ref": "tchaik-mirlitons",
+   "minutes": 2
+  },
+  {
+   "ref": "grieg-anitra",
+   "minutes": 2.5
+  },
+  {
+   "ref": "tchaik-arabe",
+   "minutes": 2.5
+  },
+  {
+   "ref": "tchaik-trepak",
+   "minutes": 1
+  },
+  {
+   "ref": "mendelssohn-notturno",
+   "minutes": 3
+  },
+  {
+   "ref": "tchaik-dragee",
+   "minutes": 2
+  },
+  {
+   "ref": "ravel-pavane",
+   "minutes": 4.5
+  },
+  {
+   "ref": "grieg-mountain-king",
+   "minutes": 2.5
+  },
+  {
+   "ref": "tchaik-valse-fleurs",
+   "minutes": 4
+  },
+  {
+   "ref": "tico-tico",
+   "minutes": 3,
+   "fixed": "last"
+  }
+ ]
+}

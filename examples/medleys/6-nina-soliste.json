@@ -1,0 +1,55 @@
+{
+ "name": "Nina soliste, et chacun son tour",
+ "repertoire": "../repertoire.json",
+ "target_minutes": 30,
+ "tolerance": 1.5,
+ "base_forces": [
+  "2 fl",
+  "2 hb",
+  "2 cl",
+  "2 bn",
+  "2 cors",
+  "harpe ou piano",
+  "cordes"
+ ],
+ "pieces": [
+  {
+   "ref": "schubert-ballet",
+   "minutes": 3,
+   "fixed": "first"
+  },
+  {
+   "ref": "faure-berceuse",
+   "minutes": 3.5
+  },
+  {
+   "ref": "grieg-ase",
+   "minutes": 2.5
+  },
+  {
+   "ref": "massenet-meditation",
+   "minutes": 5
+  },
+  {
+   "ref": "mozart-romanze",
+   "minutes": 3
+  },
+  {
+   "ref": "bizet-aragonaise",
+   "minutes": 2
+  },
+  {
+   "ref": "ravel-pavane",
+   "minutes": 5
+  },
+  {
+   "ref": "gardel-cabeza",
+   "minutes": 2.5
+  },
+  {
+   "ref": "tico-tico",
+   "minutes": 3,
+   "fixed": "last"
+  }
+ ]
+}

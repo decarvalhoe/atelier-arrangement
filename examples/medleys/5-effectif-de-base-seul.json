@@ -1,0 +1,55 @@
+{
+ "name": "Effectif de base seul (aucun instrument en plus)",
+ "repertoire": "../repertoire.json",
+ "target_minutes": 30,
+ "tolerance": 1.5,
+ "base_forces": [
+  "2 fl",
+  "2 hb",
+  "2 cl",
+  "2 bn",
+  "2 cors",
+  "harpe ou piano",
+  "cordes"
+ ],
+ "pieces": [
+  {
+   "ref": "mozart-nachtmusik",
+   "minutes": 3,
+   "fixed": "first"
+  },
+  {
+   "ref": "schubert-rosamunde",
+   "minutes": 3
+  },
+  {
+   "ref": "grieg-last-spring",
+   "minutes": 3.5
+  },
+  {
+   "ref": "elgar-matin",
+   "minutes": 3
+  },
+  {
+   "ref": "boccherini-minuetto",
+   "minutes": 2.5
+  },
+  {
+   "ref": "tchaik-valse-serenade",
+   "minutes": 3
+  },
+  {
+   "ref": "mascagni-intermezzo",
+   "minutes": 3
+  },
+  {
+   "ref": "ravel-pavane",
+   "minutes": 5
+  },
+  {
+   "ref": "tico-tico",
+   "minutes": 3,
+   "fixed": "last"
+  }
+ ]
+}
