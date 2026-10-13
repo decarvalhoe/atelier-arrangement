@@ -1,0 +1,11 @@
+{
+  "target_minutes": 30,
+  "pieces": [
+    {"title": "Fauré, Pavane op. 50", "key": "F# minor", "tempo": 84, "minutes": 6, "fixed": "first"},
+    {"title": "Bizet, L'Arlésienne : Adagietto", "key": "F major", "tempo": 60, "minutes": 3},
+    {"title": "Massenet, Méditation de Thaïs", "key": "D major", "tempo": 66, "minutes": 5.5},
+    {"title": "Fauré, Masques et bergamasques : Menuet, Gavotte", "key": "F major", "end_key": "D minor", "tempo": 108, "minutes": 6},
+    {"title": "Ravel, Pavane pour une infante défunte", "key": "G major", "tempo": 54, "minutes": 6.5},
+    {"title": "Abreu, Tico-Tico no Fubá", "key": "A minor", "tempo": 126, "minutes": 3, "fixed": "last"}
+  ]
+}
